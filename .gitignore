@@ -1,0 +1,41 @@
+# Logs and temporary files
+*.log
+tmp/
+*.tmp
+
+# Build artifacts
+/build/
+/android/build/
+/ios/build/
+/web/build/
+/linux/build/
+/macos/build/
+/windows/build/
+
+# IDE configuration
+.idea/
+.vscode/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Flutter specific files
+.dart_tool/
+.packages
+pubspec.lock
+
+# Compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.ipa
+
+# Credentials
+secrets.json
+
+#Coverage data
+coverage/
